@@ -1,8 +1,8 @@
 #include <iostream.h>
-#include <fstream.h> // библиотека файловых операций ввода - вывода.
+#include <fstream.h> 
 #include <cstdio.h>
 #include <windows.h>
-
+//Гистограмма
 
 using namespace std;
 
@@ -45,7 +45,7 @@ int main ()
         cout << endl;
 
 
-        ifstream in ("input.txt"); // Работа со считыванием информации из текстового файла input.txt
+        ifstream in ("input.txt"); 
 
         switch (menu)
 		{
@@ -57,14 +57,14 @@ int main ()
             }
 
             in >> str;
-            // Считываем лексему из строки.
+     
             for (i = 0; ; i++)
 			{
-                // Считываем до тех пор, пока не встретится либо пробел, либо нулевой символ (признак завершения строки).
+                
                 for (k = 0; str[i] != ' ' && str[i]; k++, i++)
 					tmp[k] = str[i];
-                tmp[k] = '\0'; // Завершаем лексему нулевым символом.
-                //  Определение длины каждого слова из строки.
+                tmp[k] = '\0'; 
+              
                 d = strlen(tmp);
 
                 cout << "слово: " << tmp << endl;
@@ -73,7 +73,7 @@ int main ()
 
                 if(!str[i]) break;
             }
-            in.close();// Закрываем текстовый файл input.txt
+            in.close();
 
 			cout << "\nИнформация считана с файла input.txt\n\n";
 
@@ -93,7 +93,7 @@ int main ()
 
 void fail_to_record_info ()
 {
-	ofstream out ("output.txt"); // Работа с записью информации в текстовый файл output.txt
+	ofstream out ("output.txt"); 
 	out << "слово: " << tmp << endl;
 
 	out << "\nГИСТОГРАММА: \n";
@@ -103,7 +103,7 @@ void fail_to_record_info ()
 	}
 	cout << endl;
 
-	out.close(); // Закрываем текстовый файл output.txt
+	out.close(); 
 
 	cout << "\nИнформация обработана и записана на фаил output.txt\n\n";
 }
