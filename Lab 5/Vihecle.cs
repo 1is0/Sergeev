@@ -61,7 +61,7 @@ namespace Vihecle
         static void Main(string[] args)
         {
             Car obja = new Car();
-            Car objb = new Car("Ferrary", "Sweden", 2018, "Drift racing", Rank.Bolide, "Europe Championship", new DateTime(2020, 08, 01));
+            Car objb = new Car("Ferrary", "Sweden", 2018, "3232 AB-1", Rank.Bolide, "Europe Championship", new DateTime(2020, 08, 01));
             var objc = SetSportsman();
             Console.Clear();
             Console.WriteLine(obja);
