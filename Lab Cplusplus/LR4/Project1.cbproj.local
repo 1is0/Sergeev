@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.126,=C:\Users\Acer\Documents\RAD Studio\Projects\Project4.res</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.630,=C:\Users\Acer\Documents\RAD Studio\Projects\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.147,=C:\Users\Acer\Documents\RAD Studio\Projects\Unit4.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.606,=C:\Users\Acer\Documents\RAD Studio\Projects\Project4.res</Transaction>
+    <Transaction>2020.04.21 11:25:35.308,=C:\Users\Acer\Documents\RAD Studio\Projects\Project4.res</Transaction>
+    <Transaction>2020.04.21 11:25:35.328,=C:\Users\Acer\Documents\RAD Studio\Projects\Unit4.cpp</Transaction>
+    <Transaction>2020.04.21 11:26:01.081,D:\mkkk\Unit1.h=C:\Users\Acer\Documents\RAD Studio\Projects\Unit4.h</Transaction>
+    <Transaction>2020.04.21 11:26:01.081,D:\mkkk\Unit1.cpp=C:\Users\Acer\Documents\RAD Studio\Projects\Unit4.cpp</Transaction>
+    <Transaction>2020.04.21 11:26:01.081,D:\mkkk\Unit1.dfm=C:\Users\Acer\Documents\RAD Studio\Projects\Unit4.dfm</Transaction>
+    <Transaction>2020.04.21 11:26:04.068,D:\mkkk\Project1.cbproj=C:\Users\Acer\Documents\RAD Studio\Projects\Project4.cbproj</Transaction>
+    <Transaction>2020.04.21 11:26:15.880,=D:\mkkk\Unit2.cpp</Transaction>
+    <Transaction>2020.04.21 11:26:35.557,D:\mkkk\Unit1.cpp=</Transaction>
+    <Transaction>2020.04.21 11:26:55.908,=D:\mkkk\Unit1.cpp</Transaction>
+    <Transaction>2020.04.21 11:27:02.010,=D:\mkkk\Unit2.cpp</Transaction>
+    <Transaction>2020.04.21 11:27:06.348,=D:\mkkk\Unit3.cpp</Transaction>
+    <Transaction>2020.04.21 11:27:10.203,=D:\mkkk\Unit4.cpp</Transaction>
+    <Transaction>2020.04.21 11:30:02.237,D:\mkkk\NodeNum.h=D:\mkkk\Unit3.h</Transaction>
+    <Transaction>2020.04.21 11:30:02.237,D:\mkkk\NodeNum.cpp=D:\mkkk\Unit3.cpp</Transaction>
+    <Transaction>2020.04.21 11:30:45.540,D:\mkkk\NodeOp.cpp=D:\mkkk\Unit2.cpp</Transaction>
+    <Transaction>2020.04.21 11:30:45.540,D:\mkkk\NodeOp.h=D:\mkkk\Unit2.h</Transaction>
+    <Transaction>2020.04.21 11:31:35.408,D:\mkkk\StackNum.h=D:\mkkk\Unit4.h</Transaction>
+    <Transaction>2020.04.21 11:31:35.408,D:\mkkk\StackNum.cpp=D:\mkkk\Unit4.cpp</Transaction>
+    <Transaction>2020.04.21 11:31:41.926,=D:\mkkk\Unit2.cpp</Transaction>
+    <Transaction>2020.04.21 11:32:25.014,D:\mkkk\StackOp.cpp=D:\mkkk\Unit2.cpp</Transaction>
+    <Transaction>2020.04.21 11:32:25.014,D:\mkkk\StackOp.h=D:\mkkk\Unit2.h</Transaction>
+  </Transactions>  <ProjectSortOrder AutoSort="0" SortType="0">
+    <File Path="Project1.cpp"/>
+    <File Path="Project1PCH1.h"/>
+    <File Path="StackNum.cpp"/>
+    <File Path="StackNum.cpp"/>
+    <File Path="StackNum.h"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.cpp"/>
+    <File Path="Unit1.dfm"/>
+    <File Path="Unit1.h"/>
+    <File Path="NodeNum.cpp"/>
+    <File Path="NodeNum.cpp"/>
+    <File Path="NodeNum.h"/>
+    <File Path="NodeOp.cpp"/>
+    <File Path="NodeOp.cpp"/>
+    <File Path="NodeOp.h"/>
+    <File Path="StackOp.cpp"/>
+    <File Path="StackOp.cpp"/>
+    <File Path="StackOp.h"/>
+  </ProjectSortOrder>
+</BorlandProject>
