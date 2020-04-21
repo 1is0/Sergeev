@@ -28,6 +28,6 @@ namespace Vihecle
             ht.date = date;
         }
 
-        public override string ToString() => base.ToString() + $"\nSport: {Sport}\nCompetitions: {ht.name}\t{ht.date.ToString("d")}\n";
+        public override string ToString() => base.ToString() + $"Number of car: {Number}\nCompetitions: {ht.name}\t{ht.date.ToString("d")}\n";
     }
 }
