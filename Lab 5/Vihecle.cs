@@ -37,15 +37,15 @@ namespace Vihecle
             string country = Console.ReadLine();
             Console.Write("Enter the year  of issue: ");
             int age = CheckAge();
-            Console.Write("Enter the sport: ");
-            string sport = Console.ReadLine();
+            Console.Write("Enter the number of car: ");
+            string number = Console.ReadLine();
             Console.Write("Enter the sport rank(1 - Supercar, 2 - Sportcar, 3 - Drift car, 4 - Electric car, 5 - Targa, 6 - Roadster, 7 - Cabriolet, 8 - Coupe, 9 - Buggy, 10 - Bolide): ");
             int rank = CheckRank();
             Console.Write("Enter the name of competitions: ");
             string compname = Console.ReadLine();
             Console.Write("Enter the date of copmetitions: ");
             DateTime date = CheckDate();
-            return new Car(name, country, age, sport, (Rank)rank, compname, date);
+            return new Car(name, country, age, number, (Rank)rank, compname, date);
         }
 
         public static void SetList(Car[] list)
