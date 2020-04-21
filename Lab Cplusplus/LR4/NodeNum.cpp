@@ -6,4 +6,4 @@ NodeNum :: NodeNum(float n)
 	num = n;
 }
 //---------------------------------------------------------------------------
-#pragma package(smart_in
+#pragma package(smart_init)
