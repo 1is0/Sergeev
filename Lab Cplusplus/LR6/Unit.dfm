@@ -1,0 +1,250 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 431
+  ClientWidth = 720
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -10
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 12
+  object TreeView1: TTreeView
+    Left = 203
+    Top = 6
+    Width = 205
+    Height = 241
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Indent = 19
+    TabOrder = 0
+  end
+  object StringGrid1: TStringGrid
+    Left = 6
+    Top = 6
+    Width = 193
+    Height = 241
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goRangeSelect, goEditing]
+    TabOrder = 1
+  end
+  object Button1: TButton
+    Left = 203
+    Top = 271
+    Width = 79
+    Height = 37
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Show'
+    TabOrder = 2
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 635
+    Top = 389
+    Width = 79
+    Height = 36
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Delete'
+    TabOrder = 3
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 306
+    Top = 271
+    Width = 79
+    Height = 37
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Fill tree'
+    TabOrder = 4
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 420
+    Top = 271
+    Width = 79
+    Height = 37
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Preorder'
+    TabOrder = 5
+    OnClick = Button4Click
+  end
+  object Button5: TButton
+    Left = 6
+    Top = 305
+    Width = 79
+    Height = 37
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'String amount'
+    TabOrder = 6
+    OnClick = Button5Click
+  end
+  object Edit1: TEdit
+    Left = 6
+    Top = 272
+    Width = 79
+    Height = 20
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    TabOrder = 7
+  end
+  object Memo1: TMemo
+    Left = 413
+    Top = 6
+    Width = 194
+    Height = 241
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    TabOrder = 8
+  end
+  object Button6: TButton
+    Left = 6
+    Top = 359
+    Width = 79
+    Height = 36
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Task'
+    TabOrder = 9
+    OnClick = Button6Click
+  end
+  object Button7: TButton
+    Left = 522
+    Top = 271
+    Width = 79
+    Height = 37
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Postorder'
+    TabOrder = 10
+    OnClick = Button7Click
+  end
+  object Edit2: TEdit
+    Left = 101
+    Top = 272
+    Width = 68
+    Height = 20
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    TabOrder = 11
+  end
+  object Button8: TButton
+    Left = 101
+    Top = 305
+    Width = 68
+    Height = 37
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Search'
+    TabOrder = 12
+    OnClick = Button8Click
+  end
+  object Button9: TButton
+    Left = 474
+    Top = 312
+    Width = 79
+    Height = 37
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Inorder'
+    TabOrder = 13
+    OnClick = Button9Click
+  end
+  object Button10: TButton
+    Left = 623
+    Top = 113
+    Width = 79
+    Height = 36
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Delete Nodes'
+    TabOrder = 14
+    OnClick = Button10Click
+  end
+  object Edit3: TEdit
+    Left = 623
+    Top = 78
+    Width = 68
+    Height = 20
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    TabOrder = 15
+  end
+  object Button12: TButton
+    Left = 341
+    Top = 380
+    Width = 67
+    Height = 27
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    Caption = 'Add'
+    TabOrder = 16
+    OnClick = Button12Click
+  end
+  object Edit4: TEdit
+    Left = 246
+    Top = 368
+    Width = 91
+    Height = 20
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    TabOrder = 17
+  end
+  object Edit5: TEdit
+    Left = 246
+    Top = 398
+    Width = 91
+    Height = 20
+    Margins.Left = 2
+    Margins.Top = 2
+    Margins.Right = 2
+    Margins.Bottom = 2
+    TabOrder = 18
+  end
+end
