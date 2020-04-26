@@ -179,25 +179,25 @@ void __fastcall TForm1::FormCreate(TObject *Sender)
 
 	StringGrid1->Cells[0][0] = "Name";
 
-	StringGrid1->Cells[1][0]="Year";
+	StringGrid1->Cells[1][0]="Code";
 
-	StringGrid1->Cells[0][1]="Honda"; StringGrid1->Cells[1][1]="2001";
+	StringGrid1->Cells[0][1]="Sasha"; StringGrid1->Cells[1][1]="5";
 
-	StringGrid1->Cells[0][2]="BMW"; StringGrid1->Cells[1][2]="2010";
+	StringGrid1->Cells[0][2]="Andrey"; StringGrid1->Cells[1][2]="1";
 
-	StringGrid1->Cells[0][3]="Porshe"; StringGrid1->Cells[1][3]="2001";
+	StringGrid1->Cells[0][3]="Vlad"; StringGrid1->Cells[1][3]="2";
 
-	StringGrid1->Cells[0][4]="Mazda"; StringGrid1->Cells[1][4]="2005";
+	StringGrid1->Cells[0][4]="Oleg"; StringGrid1->Cells[1][4]="6";
 
-	StringGrid1->Cells[0][5]="Volvo"; StringGrid1->Cells[1][5]="2011";
+	StringGrid1->Cells[0][5]="Ilya"; StringGrid1->Cells[1][5]="11";
 
-	StringGrid1->Cells[0][6]="Citroen"; StringGrid1->Cells[1][6]="2009";
+	StringGrid1->Cells[0][6]="Danik"; StringGrid1->Cells[1][6]="9";
 
-	StringGrid1->Cells[0][7]="Mercedes"; StringGrid1->Cells[1][7]="2012";
+	StringGrid1->Cells[0][7]="Polina"; StringGrid1->Cells[1][7]="12";
 
-	StringGrid1->Cells[0][8]="Audi"; StringGrid1->Cells[1][8]="2010";
+	StringGrid1->Cells[0][8]="Katya"; StringGrid1->Cells[1][8]="10";
 
-	StringGrid1->Cells[0][9]="Tesla"; StringGrid1->Cells[1][9]="2019";
+	StringGrid1->Cells[0][9]="Yulia"; StringGrid1->Cells[1][9]="19";
 
 
 }
