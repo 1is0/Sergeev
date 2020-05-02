@@ -1,0 +1,9 @@
+
+namespace Vihecle
+{
+    interface IChampionship
+    {
+        void Dope();
+        void Payment();
+    }
+}
