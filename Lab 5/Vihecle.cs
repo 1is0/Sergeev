@@ -29,7 +29,7 @@ namespace Vihecle
             return date;
         }
 
-        public static Car SetSportsman()
+        public static Car SetCar()
         {
             Console.Write("Enter name: ");
             string name = Console.ReadLine();
@@ -51,7 +51,7 @@ namespace Vihecle
         public static void SetList(Car[] list)
         {
             for (int i = 0; i < list.Length; i++)
-                list[i] = SetSportsman();
+                list[i] = SetCar();
             Console.Clear();
             Console.WriteLine("List of Car:");
             for (int i = 0; i < list.Length; i++)
@@ -62,7 +62,7 @@ namespace Vihecle
         {
             Car obja = new Car();
             Car objb = new Car("Ferrary", "Sweden", 2018, "3232 AB-1", Rank.Bolide, "Europe Championship", new DateTime(2020, 08, 01));
-            var objc = SetSportsman();
+            var objc = SetCar();
             Console.Clear();
             Console.WriteLine(obja);
             Console.WriteLine(objb);
