@@ -42,7 +42,7 @@ void AddDigit(MNumber* number, int digit)
 	}
 	number->n++;
 }
-/* Âûâîä ÷èñëà íà ýêðàí */
+
 void PrintMNumber(MNumber number)
 {
 	Item* p = number.tail;
@@ -52,7 +52,7 @@ void PrintMNumber(MNumber number)
 		p = p->prev;
 	}
 }
-/*Äåëåíèå*/
+
 MNumber Divide(MNumber number, int x) {
 	Item* p = (Item*)malloc(sizeof(Item));
 	p = number.tail;
@@ -109,7 +109,7 @@ MNumber Divide(MNumber number, int x) {
 	answer[nomerok] = '\0';
 	return CreateMNumber(answer);
 }
-/*Ïðîâåðêà íà äåëåíèå*/
+
 int IsDivisible(MNumber number, int x) {
 	if (number.head == NULL)return 0;
 	Item* p = (Item*)malloc(sizeof(Item));
@@ -171,7 +171,7 @@ int IsDivisible(MNumber number, int x) {
 	return ostatok ? 0 : 1;
 
 }
-/*Ôàêòîðèçàöèÿ*/
+
 void Decomposition(MNumber number) {
 	for (int i = 2; i < 2000000000; i++)
 	{
@@ -183,7 +183,7 @@ void Decomposition(MNumber number) {
 		if (number.head->digit == 1 && number.n == 1) break;
 	}
 }
-/*Ñóììà äâóõ ÷èñåë*/
+
 MNumber SumMNumber(MNumber n1, MNumber n2)
 {
 	MNumber sum = CreateMNumber("");
