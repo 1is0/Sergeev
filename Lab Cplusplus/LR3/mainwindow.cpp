@@ -207,4 +207,5 @@ void MainWindow::on_btnDelete_clicked()
     averageMark = ui->lineEditAMark->text().toDouble();
     list.remove(Info(name, surname, city, street, house, markMath, markPhys, markLang, averageMark));
     ui->textEdit->setText(list.output());
+   \\
 }
