@@ -36,4 +36,4 @@ private:
 
 };
 #endif // MAINWINDOW_H
-© 2020 GitHub, Inc.
+
