@@ -1,5 +1,6 @@
 #include "disk.h"
 
+
 Disk::Disk(QString type, QString author, QString title, QString note, int price)
 {
     this->type = type;
