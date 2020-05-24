@@ -1,5 +1,4 @@
 #include "info.h"
-
 Info::Info(QString name, QString surname, QString city, QString street, QString house, int markMath, int markPhys, int markLang, double averageMark)
 {
     this->name = name;
