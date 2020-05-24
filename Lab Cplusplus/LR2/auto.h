@@ -1,8 +1,6 @@
 #ifndef AUTO_H
 #define AUTO_H
-
 #include <QString>
-
 class Auto
 {
 public:
